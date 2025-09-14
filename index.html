@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <meta
+      name="keyword"
+      content="Your Name, portfolio, javascript, student, developer"
+    />
+    <meta
+      name="description"
+      content="Undergraduate student studying computer science and aspiring web developer."
+    />
+    <meta property="og:title" content="Your Name | Student and Developer" />
+    <meta
+      property="og:description"
+      content="Undergraduate student studying computer science at UC Berkeley and aspiring web developer."
+    />
+    <meta
+      property="og:image"
+      content="https://avatars.githubusercontent.com/u/46205282?s=400&u=e45c30c63d63d42eb50136cca684ba72bba1741b&v=4"
+    />
+    <meta
+      property="og:url"
+      content="https://YOUR-GITHUB-USERNAME.github.io/portfolio/"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script defer src="script.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <script
+      defer
+      src="https://code.iconify.design/1/1.0.7/iconify.min.js"
+    ></script>
+    <title>Your Name | Portfolio</title>
+  </head>
+  <body>
+    <!-- BACK TO TOP BUTTON -->
+    <button id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- HEADER -->
+    <header id="home">
+      <nav id="nav" aria-label="Main menu">
+        <div class="logo">
+          <h3>Christopher <span>Ling</span></h3>
+        </div>
+
+        <ul class="links">
+          <li>
+            <a href="#home" class="link"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about" class="link"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#skills" class="link"
+              ><i class="fas fa-tools"></i> Skills</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="link"
+              ><i class="fab fa-codepen"></i> Projects</a
+            >
+          </li>
+          <li>
+            <!-- DARK MODE TOGGLE -->
+            <div class="color-toggle-container">
+              <input type="checkbox" id="color-toggle-input" />
+              <label for="color-toggle-input" class="color-toggle-label">
+                <div class="color-toggle"></div>
+              </label>
+            </div>
+          </li>
+        </ul>
+
+        <div class="hamburger-menu" id="hamburger-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+
+      <!-- HERO SECTION -->
+      <div class="hero">
+        <h1 class="h1">Hi, I'm a <span class="animate"></span></h1>
+        <p class="student" id="student">
+          Full-time student with passion for web development.
+        </p>
+        <div class="hero-btns">
+          <a href="#about" class="about" id="about-btn">About me</a>
+          <a href="#projects" class="projects-btn" id="projects-btn"
+            >Projects</a
+          >
+        </div>
+      </div>
+
+      <!-- SOCIAL LINKS -->
+      <div class="socials" id="socials">
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ling-christopher"
+              target="_blank"
+              class="linkedin"
+              aria-label="LinkedIn"
+              rel="noopener"
+              >LinkedIn<i class="fi-snsuxl-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/christopher-ling"
+              target="_blank"
+              class="github"
+              aria-label="GitHub"
+              rel="noopener"
+              >GitHub<i class="fi-snsuxl-github-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="mailto:cling40@gatech.edu"
+              target="_blank"
+              class="email"
+              aria-label="Email"
+              rel="noopener"
+              >Email<i class="fi-xwsuxl-envelope-solid"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- ABOUT ME -->
+      <section id="about">
+        <div class="container-about">
+          <div class="about-me" id="about-me">
+            <h2><span>About</span> Me</h2>
+            <p>
+              I'm currently an undergraduate looking to improve my software and
+              web development knowledge. I study at Georgia Institute of Technology, and I'm
+              majoring in computer science. My programming journey kickstarted when
+              taking AP Computer Science Principles class in high school. The Odin Project's Full Stack JavaScript Curriculum is
+              just one of the ways I'm learning to code now. Besides coding, I
+              like to play tennis and video games, watch anime, and learn
+              languages.
+            </p>
+          </div>
+          <div class="student-img">
+            <img
+              src="./images/hello.svg"
+              height="250px"
+              width="350px"
+              alt="guy with laptop on a desk"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="header" id="header">
+          <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="container lazy-background" id="container">
+          <div class="languages">
+            <p><i class="fas fa-code"></i></p>
+            <h3>Languages</h3>
+            <span
+              >JS/TS
+              <span
+                class="iconify"
+                data-icon="logos:javascript"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="logos-typescript-icon"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Python
+              <span
+                class="iconify"
+                data-icon="logos:python"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Java <span class="iconify" data-icon="logos:java"></span
+            ></span>
+            <br />
+            <span
+              >SQL
+              <span
+                class="iconify"
+                data-icon="vscode-icons:file-type-sql"
+              ></span
+            ></span>
+            <br />
+            <span
+              >HTML
+              <span
+                class="iconify"
+                data-icon="logos:html-5"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >CSS/SASS
+              <span
+                class="iconify"
+                data-icon="logos:css-3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="logos:sass"
+                data-inline="false"
+              ></span
+            ></span>
+          </div>
+
+          <div class="frameworks">
+            <p><i class="fas fa-book-reader"></i></p>
+            <h3>Frameworks/Libraries/Databases</h3>
+            <span
+              >React.js
+              <span
+                class="iconify"
+                data-icon="logos:react"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Node.js/Express.js
+              <span
+                class="iconify"
+                data-icon="logos:nodejs-icon"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="simple-icons:express"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >MongoDB
+              <span
+                class="iconify"
+                data-icon="vscode-icons:file-type-mongo"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Jest
+              <span
+                class="iconify"
+                data-icon="logos:jest"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >jQuery
+              <span
+                class="iconify"
+                data-icon="bx:bxl-jquery"
+                data-inline="false"
+              ></span>
+            </span>
+            <br />
+            <span
+              >Tailwind
+              <span
+                class="iconify"
+                data-icon="vscode-icons:file-type-tailwind"
+              ></span>
+            </span>
+          </div>
+
+          <div class="technologies">
+            <p><i class="fas fa-tools"></i></p>
+            <h3>Technologies</h3>
+            <span
+              >Git
+              <span
+                class="iconify"
+                data-icon="logos:git-icon"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span>
+              Webpack
+              <span
+                class="iconify"
+                data-icon="logos:webpack"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Figma <span class="iconify" data-icon="logos:figma"></span
+            ></span>
+            <br />
+            <span
+              >Canva
+              <span
+                class="iconify"
+                data-icon="cib:canva"
+                style="color: #34cceb"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Heroku
+              <span
+                class="iconify"
+                data-icon="bxl:heroku"
+                style="color: #ab34eb"
+              ></span
+            ></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT SHOWCASE -->
+      <section id="projects">
+        <div class="header" id="header">
+          <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="container reveal lazy-background">
+          <!-- PROJECT 1 -->
+          <div class="card lazy-background" id="card">
+            <div class="card-img card6"></div>
+            <div class="card-text">
+              <h2>LeetCode Spaced Repitition</h2>
+              <p>A website to apply spaced repitition on LeetCode questions.</p>
+              <br />
+              <p class="made-with">
+                Coming Soon...
+              </p>
+              <br />
+              <p>In Development</p>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="card lazy-background" id="card">
+            <div class="card-img card4"></div>
+            <div class="card-text">
+              <h2>Weather App</h2>
+              <p>A simple web application to see the weather.</p>
+              <br />
+              <p class="made-with">
+                Coming Soon...
+              </p>
+              <br />
+              <p>In Development</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
