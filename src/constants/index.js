@@ -94,25 +94,27 @@ const mobileHomeApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "github.com/christopher-ling",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+      "PacketScope: watch a real web request cross the internet — DNS, TCP, TLS, HTTP and every router hop on a 3D globe",
     image: "images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://github.com/christopher-ling/packetscope",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+    date: "github.com/christopher-ling",
+    title:
+      "PicYourBeat: a Hacklanta project that turns a photo into music with Gemini and ElevenLabs",
     image: "images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://github.com/christopher-ling/picyourbeat",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
+    date: "github.com/christopher-ling",
+    title:
+      "AI Network Scheduling: a CS 4251 computer networking project",
     image: "images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://github.com/christopher-ling/CS4251-ai-network-scheduling",
   },
 ];
 
@@ -378,25 +380,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "images/adrian.jpg",
-    },
-    {
-      id: 2,
-      name: "casual-me.png",
-      icon: "images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-28 right-72",
-      imageUrl: "images/adrian-2.jpg",
-    },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "images/adrian-3.jpeg",
+      imageUrl: "images/avatar.png",
     },
     {
       id: 4,
@@ -406,7 +390,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "images/adrian.jpg",
+      image: "images/avatar.png",
       description: [
         "Hey! I’m Christopher 👋, a Computer Science student at Georgia Tech (B.S. expected December 2026) concentrating in Systems & Architecture and Information Internetworks.",
         "I like building things end to end—from React, Next.js and React Native frontends to Flask and Spring Boot backends—with a soft spot for networking and how data actually moves across the internet.",
