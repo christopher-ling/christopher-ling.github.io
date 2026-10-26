@@ -4,8 +4,11 @@ import { Draggable } from "gsap/Draggable";
 import useThemeStore from "#store/theme";
 import { useEffect } from "react";
 
-import { Dock, Home, Navbar, Welcome } from "#components"
-import { Finder, Resume, Safari, Terminal, Text, Image, Contact, Photos } from "#windows";
+import { Dock, Home, Navbar, Welcome, MobileNavbar, MobileHome } from "#components"
+import {
+  Finder, Resume, Safari, Terminal, Text, Image, Contact, Photos,
+  MobileFinder, MobileResume, MobileSafari, MobileTerminal, MobileText, MobileImage, MobileContact, MobilePhotos,
+} from "#windows";
 
 gsap.registerPlugin(Draggable);
 
@@ -40,6 +43,7 @@ const App = () => {
   return (
     <main>
       <Navbar />
+      <MobileNavbar />
       <Welcome />
       <Dock />
 
@@ -52,6 +56,17 @@ const App = () => {
       <Contact />
       <Home />
       <Photos />
+
+      {/* Mobile (below the `sm` breakpoint) */}
+      <MobileHome />
+      <MobileFinder />
+      <MobileSafari />
+      <MobilePhotos />
+      <MobileContact />
+      <MobileTerminal />
+      <MobileResume />
+      <MobileText />
+      <MobileImage />
     </main>
   );
 };

@@ -65,12 +65,29 @@ const dockApps = [
     name: "Skills", // was "Terminal"
     icon: "terminal.png",
     canOpen: true,
+    hideOnMobile: true,
   },
   {
     id: "trash",
     name: "Archive", // was "Trash"
     icon: "trash.png",
     canOpen: false,
+    hideOnMobile: true,
+  },
+];
+
+// Apps shown on the phone "home screen" (below the `sm` breakpoint)
+const mobileHomeApps = [
+  {
+    id: "txtfile",
+    name: "Pages",
+    icon: "pages.png",
+    fileName: "about-me.txt",
+  },
+  {
+    id: "terminal",
+    name: "Terminal",
+    icon: "terminal.png",
   },
 ];
 
@@ -208,6 +225,7 @@ export {
   navLinks,
   navIcons,
   dockApps,
+  mobileHomeApps,
   blogPosts,
   techStack,
   socials,

@@ -4,6 +4,7 @@ import gsap from "gsap"
 import { useRef } from "react"
 import { useGSAP } from "@gsap/react"
 import useWindowStore from "#store/window"
+import clsx from "clsx"
 
 const Dock = () => {
     const { openWindow, closeWindow, windows } = useWindowStore();
@@ -84,8 +85,8 @@ const Dock = () => {
     return (
         <section id="dock">
             <div ref={dockRef} className="dock-container">
-                {dockApps.map(({ id, name, icon, canOpen }) => (
-                    <div key={id} className="relative flex justify-center">
+                {dockApps.map(({ id, name, icon, canOpen, hideOnMobile }) => (
+                    <div key={id} className={clsx("relative flex justify-center", hideOnMobile && "max-sm:hidden")}>
                         <button 
                             type="button" 
                             className="dock-icon" 
