@@ -86,7 +86,7 @@ const Dock = () => {
         <section id="dock">
             <div ref={dockRef} className="dock-container">
                 {dockApps.map(({ id, name, icon, canOpen, hideOnMobile }) => (
-                    <div key={id} className={clsx("relative flex justify-center", hideOnMobile && "max-sm:hidden")}>
+                    <div key={id} className={clsx("relative flex justify-center max-sm:flex-1 max-sm:min-w-0", hideOnMobile && "max-sm:hidden")}>
                         <button 
                             type="button" 
                             className="dock-icon" 
