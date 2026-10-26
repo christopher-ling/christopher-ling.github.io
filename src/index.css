@@ -563,7 +563,7 @@ body {
 
   /* Full-screen iOS-style page used by every mobile window */
   .mobile-window {
-    @apply absolute top-0 left-0 w-dvw h-dvh overflow-y-auto select-none;
+    @apply absolute top-0 left-0 w-dvw h-dvh overflow-y-auto overflow-x-hidden select-none;
     background: var(--bg-window);
     color: var(--window-text);
   }
