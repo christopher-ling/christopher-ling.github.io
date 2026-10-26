@@ -8,7 +8,7 @@ const MobileContact = () => {
     <MobileWindowHeader target="contact" title="Contact" />
 
     <div className="content">
-        <img src="images/adrian.jpg" alt="Adrian" className="size-20 rounded-full object-cover" />
+        <img src="images/adrian.jpg" alt="Christopher" className="size-20 rounded-full object-cover" />
 
         <h3>Let's Connect</h3>
         <p>Got an idea? A bug to squash? Or just wanna talk tech? I'm in.</p>
