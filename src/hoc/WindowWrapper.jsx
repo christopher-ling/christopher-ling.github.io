@@ -58,7 +58,7 @@ const WindowWrapper = (Component, windowKey) => {
                 id={windowKey} 
                 ref={ref} 
                 style={{ zIndex }} 
-                className="absolute">
+                className="absolute max-sm:hidden!">
                 <Component {...props} />
             </section>
         );

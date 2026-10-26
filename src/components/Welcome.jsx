@@ -77,18 +77,13 @@ const Welcome = () => {
             <p ref={subtitleRef}>
                 {renderText(
                     "Hey, I'm Christopher! Welcome to my", 
-                    "text-3xl font-georama", 
+                    "max-sm:text-2xl text-3xl font-georama", 
                     100,
                 )}
             </p>
             <h1 ref={titleRef} className="mt-7">
-                {renderText("portfolio.", "text-9xl italic font-georama")}
+                {renderText("portfolio.", "max-sm:text-7xl text-9xl italic font-georama")}
             </h1>
-
-            <div className="small-screen">
-                <p>This Portfolio is designed for desktop/tablet screens 
-                only.</p>
-            </div>
         </section>
   )
 }
