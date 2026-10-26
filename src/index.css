@@ -563,13 +563,14 @@ body {
 
   /* Full-screen iOS-style page used by every mobile window */
   .mobile-window {
-    @apply absolute top-0 left-0 w-dvw h-dvh pt-20 overflow-y-auto select-none;
+    @apply absolute top-0 left-0 w-dvw h-dvh overflow-y-auto select-none;
     background: var(--bg-window);
     color: var(--window-text);
   }
 
   .mobile-window-header {
-    @apply flex justify-between items-center gap-5 px-3 pb-3 relative z-10;
+    @apply flex justify-between items-center gap-5 px-3 pt-20 pb-3 sticky top-0 z-10;
+    background: var(--bg-window);
 
     .back {
       @apply flex-1 flex items-center gap-2 cursor-pointer;
