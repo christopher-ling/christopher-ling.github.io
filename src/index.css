@@ -153,10 +153,10 @@ body {
   }
 
   #dock {
-    @apply absolute bottom-5 left-1/2 -translate-x-1/2 z-50 select-none max-sm:w-[92vw];
+    @apply absolute bottom-5 left-1/2 -translate-x-1/2 z-50 select-none max-sm:w-full max-sm:px-5;
 
     .dock-container {
-      @apply bg-white/20 backdrop-blur-md justify-between rounded-2xl p-1.5 flex items-end gap-1.5 max-sm:rounded-3xl max-sm:px-5 max-sm:py-3 max-sm:justify-around;
+      @apply bg-white/20 backdrop-blur-md justify-between rounded-2xl p-1.5 flex items-end gap-1.5 max-sm:rounded-3xl max-sm:px-3 max-sm:py-2 max-sm:justify-between;
     }
 
     .tooltip {
@@ -164,7 +164,7 @@ body {
     }
 
     .dock-icon {
-      @apply size-14 3xl:size-20 cursor-pointer;
+      @apply size-14 max-sm:size-20 3xl:size-20 cursor-pointer;
 
       img {
         @apply object-cover object-center;
@@ -637,10 +637,10 @@ body {
   }
 
   #mobile-safari {
-    @apply pb-40;
+    @apply flex flex-col;
 
     .blog {
-      @apply p-5 max-w-3xl mx-auto;
+      @apply flex-1 p-5 pb-10 max-w-3xl mx-auto;
 
       h2 {
         @apply text-xl font-bold text-pink-600 mb-10;
@@ -675,7 +675,7 @@ body {
     }
 
     footer {
-      @apply fixed inset-x-0 bottom-0 w-full rounded-t-xl px-5 pt-2 pb-6;
+      @apply sticky bottom-0 w-full rounded-t-xl px-5 pt-2 pb-6;
       background: var(--bg-sidebar);
       border-top: 1px solid var(--border-color);
 
