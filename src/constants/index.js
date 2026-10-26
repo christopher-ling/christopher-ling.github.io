@@ -281,7 +281,7 @@ const WORK_LOCATION = {
       name: "Stock News Predictor",
       icon: "images/folder.png",
       kind: "folder",
-      position: "top-10 left-40",
+      position: "top-44 left-5",
       windowPosition: "top-[10vh] left-20",
       children: [
         {
@@ -324,7 +324,7 @@ const WORK_LOCATION = {
       name: "Flight Tracking Database System",
       icon: "images/folder.png",
       kind: "folder",
-      position: "top-10 left-72",
+      position: "top-80 left-5",
       windowPosition: "top-[15vh] left-40",
       children: [
         {
