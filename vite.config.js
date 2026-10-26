@@ -5,7 +5,7 @@ import { resolve, dirname } from "path";
 import { fileURLToPath } from 'url';
 
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/MacOS-Portfolio/' : '/',
+  base: '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
