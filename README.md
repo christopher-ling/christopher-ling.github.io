@@ -1,6 +1,6 @@
 # macOS Portfolio
 
-View live demo → [Click Here](https://christopher-ling.github.io/MacOS-Portfolio)
+View live demo → [Click Here](https://christopher-ling.github.io)
 
 A compact macOS-style portfolio built with React + Vite. Shows a windowed UI, Dock with magnification, theme Control Center, and responsive mobile behavior.
 
@@ -8,7 +8,7 @@ A compact macOS-style portfolio built with React + Vite. Shows a windowed UI, Do
 
 ## Preview
 
-[![Site preview](public/files/preview.gif)](https://christopher-ling.github.io/MacOS-Portfolio/preview.mp4)
+[![Site preview](public/files/preview.gif)](https://christopher-ling.github.io/preview.mp4)
 
 _Note:_ Place `public/files/preview.gif` and `public/preview.mp4` locally to make the preview render and link correctly.
 
